@@ -1,0 +1,28 @@
+{
+    "name": "muazzamkhan95/searchenginscrapping",
+    "type": "package",
+    "description": "This package is to get meta tags from search results",
+    "keywords": ["google.com","keyword position","rankcheck"],
+    "homepage": "https://www.linkedin.com/in/muazzamkhan95/",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "version":"1.0",
+    "authors": [
+        {
+            "name": "Muazzam Ali Khan",
+            "email": "muazzamkhan95@gmail.com",
+            "homepage": "https://www.linkedin.com/in/muazzamkhan95/",
+            "role": "Developer"
+        }
+    ],
+    
+    "require": {
+        "php": "^7.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "SearchEngineScrapping\\": "SearchEngineScrapping/src/"
+        }
+    }
+}
